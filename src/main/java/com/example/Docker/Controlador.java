@@ -26,7 +26,7 @@ public class Controlador{
 
     @GetMapping("/agregar")
     public ArrayList<Persona> agregar(@RequestParam(value="nombre") String nombre, @RequestParam(value="apellidos") String apellidos, @RequestParam(value="edad") int edad){
-        Persona persona = new Persona(nombre,apellidos,edad);
+        servicio.agregarPersona(new Persona(nombre, apellidos, edad));
         return servicio.listar();
     }
 
@@ -36,6 +36,7 @@ public class Controlador{
         persona.setNombre(nombre);
         persona.setApellidos(apellidos);
         persona.setEdad(edad);
+        servicio.agregarPersona(persona);
         return servicio.listar();
     }
 
