@@ -1,9 +1,26 @@
 package com.example.Docker;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Persona")
 public class Persona{
 
-    private int id, edad;
-    private String nombre, apellidos;
+    @Id
+    @Column
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private int id;
+    @Column
+    private String nombre;
+    @Column
+    private String apellidos;
+    @Column
+    private int edad;
 
 	public Persona(int id, String nombre, String apellidos, int edad){
         this.id = id;
