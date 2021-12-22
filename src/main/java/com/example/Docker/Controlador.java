@@ -17,7 +17,7 @@ public class Controlador{
     @GetMapping("/listar")
     public String listar(Model model){
         ArrayList<Persona> personas = servicio.listar();
-        model.addAttribute("Personas", personas);
+        model.addAttribute("personas", personas);
         return "index";
     }
 }
