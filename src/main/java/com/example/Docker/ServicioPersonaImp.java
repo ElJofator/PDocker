@@ -22,21 +22,20 @@ public class ServicioPersonaImp implements ServicioPersona{
     }
 
     @Override
-    public void agregarPersona(Persona persona) {
-        // TODO Auto-generated method stub
-        
-    }
-
-    @Override
-    public void editarPersona(int id) {
-        // TODO Auto-generated method stub
-        
-    }
-
-    @Override
     public void eliminarPersona(int id) {
         // TODO Auto-generated method stub
         
+    }
+
+    @Override
+    public Persona agregarPersona(Persona persona) {
+        return repositorio.save(persona);
+    }
+
+    @Override
+    public Persona editarPersona(int id) {
+        // TODO Auto-generated method stub
+        return null;
     }
 
     
