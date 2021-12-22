@@ -1,7 +1,6 @@
 package com.example.Docker;
 
 import java.util.ArrayList;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,26 +17,28 @@ public class ServicioPersonaImp implements ServicioPersona{
 
     @Override
     public ArrayList<Persona> listar() {
-        return repositorio.findAll();
+        
+        return (ArrayList<Persona>)repositorio.findAll();
     }
 
     @Override
-    public Persona editarPersona(int id) {
+    public void agregarPersona(Persona persona) {
         // TODO Auto-generated method stub
-        return null;
+        
     }
 
     @Override
-    public Persona eliminarPersona(int id) {
+    public void editarPersona(int id) {
         // TODO Auto-generated method stub
-        return null;
+        
     }
 
     @Override
-    public Persona agregarPersona(Persona persona) {
+    public void eliminarPersona(int id) {
         // TODO Auto-generated method stub
-        return null;
+        
     }
+
     
     
 }
