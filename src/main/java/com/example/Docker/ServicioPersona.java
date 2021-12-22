@@ -3,6 +3,9 @@ package com.example.Docker;
 import java.util.ArrayList;
 
 public interface ServicioPersona{
-    ArrayList<Persona> listar();
-    Persona buscarPersona(int id);
+    public void agregarPersona(Persona persona);
+    public Persona buscarPersona(int id);
+    public ArrayList<Persona> listar();
+    public void editarPersona(int id);
+    public void eliminarPersona(int id);
 }
