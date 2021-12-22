@@ -22,11 +22,21 @@ public class Persona{
     @Column
     private int edad;
 
-	public Persona(int id, String nombre, String apellidos, int edad){
+	public Persona(String nombre, String apellidos, int edad){
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.edad = edad;
+    }
+
+    public Persona(int id, String nombre, String apellidos, int edad){
         this.id = id;
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
+    }
+
+    public Persona(){
+
     }
 
     public String getNombre(){

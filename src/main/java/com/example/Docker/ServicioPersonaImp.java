@@ -11,7 +11,9 @@ public class ServicioPersonaImp implements ServicioPersona{
 
     @Override
     public Persona buscarPersona(int id) {
-        // TODO Auto-generated method stub
+        if(repositorio.existsById(id)){
+            return repositorio.findById(id).get();
+        }
         return null;
     }
 
@@ -23,21 +25,13 @@ public class ServicioPersonaImp implements ServicioPersona{
 
     @Override
     public void eliminarPersona(int id) {
-        // TODO Auto-generated method stub
-        
+        if(repositorio.existsById(id)){
+            repositorio.deleteById(id);
+        }
     }
 
     @Override
     public Persona agregarPersona(Persona persona) {
         return repositorio.save(persona);
     }
-
-    @Override
-    public Persona editarPersona(int id) {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    
-    
 }
