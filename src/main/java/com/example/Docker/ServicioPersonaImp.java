@@ -31,7 +31,7 @@ public class ServicioPersonaImp implements ServicioPersona{
     }
 
     @Override
-    public Persona agregarPersona(Persona persona) {
+    public Persona guardarPersona(Persona persona) {
         return repositorio.save(persona);
     }
 }
