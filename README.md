@@ -20,6 +20,7 @@
 * __Verificar que la imagen de MySQL esté corriendo__ :
 ![Screenshot](Docker.PNG)
 * __En el MySQL Workbench, crear una nueva conexión__ :
+(No olvidar que la contraseña es admin)
 ![Screenshot](Conexión.PNG)
 * __Abrir la conexión y en el Query crear la base de datos__ :
 * __En el Query crear el usuario__ :
