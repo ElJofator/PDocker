@@ -18,6 +18,7 @@
 * __Abrir Docker Desktop y MySQL Workbench__ 
 * __En una terminal, descargar y correr la imagen de MySQL__ : docker run --name admin -p 3306:3306 -e MYSQL_ROOT_PASSWORD=admin -d mysql
 * __Verificar que la imagen de MySQL esté corriendo__ :
+![Screenshot](Docker.PNG)
 * __En el MySQL Workbench, crear una nueva conexión__ :
 * __Abrir la conexión y en el Query crear la base de datos__ :
 * __En el Query crear el usuario__ :
