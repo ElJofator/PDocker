@@ -12,7 +12,7 @@
 * [MySQL Workbench](https://www.mysql.com/products/workbench/): Versión 8.0.27
 ***
 ### Para tener en cuenta
-* Tener instalado el Docker Desktop y el MySQL Workbench. Los enlaces para su descarga se encuentran en la sección ###### _Tecnologías utilizadas_.
+* Tener instalado el Docker Desktop y el MySQL Workbench. Los enlaces para su descarga se encuentran en la sección ##### _Tecnologías utilizadas_.
 ***
 ### Corriendo el proyecto
 * __Abrir Docker Desktop y MySQL Workbench__ 
