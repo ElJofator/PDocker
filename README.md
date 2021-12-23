@@ -16,7 +16,9 @@
 ***
 ### Corriendo el proyecto
 * __Abrir Docker Desktop y MySQL Workbench.__
-* __En una terminal, descargar y correr la imagen de MySQL__ : docker run --name admin -p 3306:3306 -e MYSQL_ROOT_PASSWORD=admin -d mysql
+* __En una terminal, descargar y correr la imagen de Redis y MySQL__ : 
+  - docker run -p 3308:3308 -e redis
+  - docker run --name admin -p 3306:3306 -e MYSQL_ROOT_PASSWORD=admin -d mysql
 * __Verificar que la imagen de MySQL esté corriendo__ :
 ![Screenshot](Docker.PNG)
 * __En el MySQL Workbench, crear una nueva conexión__ :
