@@ -8,6 +8,7 @@
 * [Apache Maven](https://maven.apache.org/): Versión 3.8.3
 * [Spring Boot](https://spring.io/projects/spring-boot): Versión 2.6.2
 * [Docker Desktop](https://www.docker.com/products/docker-desktop): Versión 4.3.1
+* [Redis](https://hub.docker.com/_/redis): Versión 
 * [MySQL](https://hub.docker.com/_/mysql): Versión 8.0.27-1debian10
 * [MySQL Workbench](https://www.mysql.com/products/workbench/): Versión 8.0.27
 ***
@@ -17,10 +18,10 @@
 ### Corriendo el proyecto
 * __Abrir Docker Desktop y MySQL Workbench.__
 * __En una terminal, descargar y correr la imagen de Redis y MySQL__ : 
-  - docker run -p 3308:3308 -e redis
+  - docker run -d -p 3308:3308 redis
   - docker run --name admin -p 3306:3306 -e MYSQL_ROOT_PASSWORD=admin -d mysql
-* __Verificar que la imagen de MySQL esté corriendo__ :
-![Screenshot](Docker.PNG)
+* __Verificar que las imágenes de Redis y MySQL estén corriendo__ :
+![Screenshot](Imag.PNG)
 * __En el MySQL Workbench, crear una nueva conexión__ :
 (No olvidar que la contraseña es admin).
 ![Screenshot](Conexión.PNG)
