@@ -1,14 +1,14 @@
 # PDocker
 ***
 ### Descripción general
-
+Aplicación con persistencia en Docker en Redis y MySQL.
 ***
 ### Tecnologías utilizadas
 * [Java](https://www.java.com/es/): Versión 17
 * [Apache Maven](https://maven.apache.org/): Versión 3.8.3
 * [Spring Boot](https://spring.io/projects/spring-boot): Versión 2.6.2
 * [Docker Desktop](https://www.docker.com/products/docker-desktop): Versión 4.3.1
-* [Redis](https://hub.docker.com/_/redis): Versión 
+* [Redis](https://hub.docker.com/_/redis): Versión 6.2.6
 * [MySQL](https://hub.docker.com/_/mysql): Versión 8.0.27-1debian10
 * [MySQL Workbench](https://www.mysql.com/products/workbench/): Versión 8.0.27
 ***
