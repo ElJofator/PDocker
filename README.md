@@ -25,6 +25,7 @@
 * __Abrir la conexión y en el Query crear la base de datos__ :
 ![Screenshot](Base.PNG)
 * __En el Query crear el usuario__ :
+![Screenshot](Usuario.PNG)
 * __Insertar un elemento a la base de datos__ :
 * __Ubicarse en el directorio en dónde se encuentra el repositorio.__
 * __Correr el proyecto__ : mvn spring-boot:run
