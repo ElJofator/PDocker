@@ -23,6 +23,7 @@
 (No olvidar que la contraseña es admin)
 ![Screenshot](Conexión.PNG)
 * __Abrir la conexión y en el Query crear la base de datos__ :
+![Screenshot](Base.PNG)
 * __En el Query crear el usuario__ :
 * __Insertar un elemento a la base de datos__ :
 * __Ubicarse en el directorio en dónde se encuentra el repositorio.__
