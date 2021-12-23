@@ -27,6 +27,7 @@
 * __En el Query crear el usuario__ :
 ![Screenshot](Usuario.PNG)
 * __Insertar un elemento a la base de datos__ :
+* ![Screenshot](Persona.PNG)
 * __Ubicarse en el directorio en dónde se encuentra el repositorio.__
 * __Correr el proyecto__ : mvn spring-boot:run
 ***
