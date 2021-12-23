@@ -33,5 +33,5 @@
 * __Eliminar persona__ : http://localhost:8090/eliminar?id=1
 ***
 ### Autores
-Joseph Fabian Basto Cuadros, estudiante de Ingeniería de Sistemas.
-Liliana Paola Castellanos Pinzón, estudiante de Ingeniería de Sistemas.
+##### Joseph Fabian Basto Cuadros, estudiante de Ingeniería de Sistemas.
+##### Liliana Paola Castellanos Pinzón, estudiante de Ingeniería de Sistemas.
